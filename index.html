@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">Quiz</div>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About</a>
+      <a href="#">Contact Us</a>
+    </nav>
+
+    <section class="home">
+      <h1>Quiz Website</h1>
+      <p>
+        Test your knowledge with our exciting quiz! Learn new facts of Html, Css and Javascript and challenge yourself.
+        Click the "Start Quiz" button to begin your journey.
+      </p>
+      <button class="start-btn" id="start-btn">Start Quiz</button>
+    </section>
+
+    <div id="question-container" class="hide">
+      <h1 id="question">Question goes here</h1>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+      <button id="next-btn" class="next-btn hide">Next</button>
+    </div>
+  </div>
+
+  <div class="score">
+    Score: <span id="right-answers">0</span>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
