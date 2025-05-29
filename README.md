@@ -19,7 +19,7 @@ This is a simple web-based Quiz Application on Html,css and Javascript.
 
 # Installation
 
-1) **Clone the Repository:**
+**Clone the Repository:**
 ```sh
 git clone https://github.com/AkshatKardak/Quiz-Application.git
 cd Quiz-Application
